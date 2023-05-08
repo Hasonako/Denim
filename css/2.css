@@ -1,0 +1,167 @@
+body{
+margin: 0;
+font-family: 'Work Sans', sans-serif;
+}
+
+.top{
+height: 70px;
+display: flex;
+justify-content: center;
+}
+
+.top-container{
+width: 1366px;
+display: flex;
+justify-content: space-between;
+}
+
+.top-container ul li{
+display: inline;
+list-style-type: none;
+margin-right: 35px;
+}
+
+.top-container .ikons{
+display: flex;
+width: 261px;
+align-items: center;
+justify-content: flex-end;
+}
+
+.category{
+display: flex;
+justify-content: center;
+height: 260px;
+background-color: #F1F2F4;
+}
+
+.category-container{
+width: 1366px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.category-container .text{
+width: 314px;
+height: 114px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.category-container .text h3{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 125%;
+}
+
+.parent{
+position: relative;
+width: 359px;
+height: 260px;
+top: 0;
+left: 0;
+}
+
+.image1{
+position: absolute;
+left: 40px;
+}
+
+.image2{
+position: relative;
+right: 0;
+top: 82px;
+}
+
+.image3{
+position: absolute;
+}
+
+.cloth{
+display: flex;
+height: 1571px;
+justify-content: center;
+}
+
+.cloth .cloth-container{
+display: flex;
+width: 1366px;
+flex-direction: column;
+}
+
+.cloth-container .first{
+margin-top: 105px;
+display: flex;
+height: 334px;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.cloth-container .second{
+display: flex;
+margin-top: 100px;
+justify-content: space-between;
+}
+
+.cloth-container .second .left{
+display: grid;
+grid-template-areas:
+"a b"
+"c d";
+justify-content: space-between;
+align-content: space-between;
+width: 618px;
+}
+
+.cloth-container .second .left .a{
+grid-area: a;
+}
+.cloth-container .second .left .b{
+grid-area: b;
+}
+.cloth-container .second .left .c{
+grid-area: c;
+}
+.cloth-container .second .left .d{
+grid-area: d;
+}
+
+.more{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.more button{
+width: 200px;
+height: 64px;
+background: #151C22;
+color: white;
+}
+
+footer{
+background-color: black;
+height: 222px;
+display: flex;
+color: white;
+justify-content: center;
+}
+
+footer .container{
+width: 1366px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+footer ul{
+padding-inline-start: 0px;
+}
+footer ul li{
+display: inline;
+margin: 15px;
+}
